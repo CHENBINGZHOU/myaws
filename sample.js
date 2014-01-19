@@ -1,5 +1,5 @@
  var myFirebase = require('firebase')
- var myajax = require('https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
+ var myajax = require('jquery.min')
  var myDataRef = new myFirebase.Firebase('https://nestlabs-neighbour.firebaseio.com/users/13/structures/f6ab7cf0-5272-11e3-b09f-22000aecc032/');
 	  myDataRef.auth("6OzN9nzHcn5kc0wrrHTqJWIvhnlXv5JkdMmZLDg7", function(error) {
   if(error) {
